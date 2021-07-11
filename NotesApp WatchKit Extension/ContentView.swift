@@ -1,16 +1,12 @@
-//
-//  ContentView.swift
-//  NotesApp WatchKit Extension
-//
-//  Created by Pedro Rodríguez on 10/07/21.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        //tenemos que ligar nuestras 2 vistas
+        VStack{
+            NavigationLink("Agregar Nota", destination: AddNote())
+            NavigationLink("Listar notas", destination: ListNotes())
+        }.navigationTitle("Notes App")
     }
 }
 
