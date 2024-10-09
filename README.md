@@ -19,7 +19,6 @@ This repository contains the source code for a simple and intuitive notes applic
 - Create new notes using dictation or scribble.
 - View a list of all notes.
 - Edit and delete existing notes.
-- Sync notes with the paired iPhone app (if applicable).
 
 ## Installation
 
